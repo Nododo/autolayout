@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomCell.h
 //  autolayout
 //
 //  Created by 杜 维欣 on 15/9/1.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+#import "CustomModel.h"
+@interface CustomCell : UITableViewCell
+@property (nonatomic,strong)CustomModel *model;
 @end
-
